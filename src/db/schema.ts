@@ -19,6 +19,7 @@ import {
 export const articles = pgTable("articles", {
     id: serial("id").primaryKey(),
     text: text("text").notNull(),
+    title: text("title").notNull(),
     slug: text("slug").notNull(),
     content: text("content").notNull(),
     imageUrl: text("image_url").notNull(),
