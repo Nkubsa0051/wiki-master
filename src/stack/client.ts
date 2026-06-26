@@ -1,6 +1,6 @@
 import { HexclaveClientApp } from "@hexclave/next";
 
-const appurl = process.env.NEXT_PUBLIC_APPURL ?? "http://localhost:3000";
+const appurl = process.env.NEXT_PUBLIC_APPURL ?? "wiki-master-x51y.vercel.app";
 
 export const hexclaveClientApp = new HexclaveClientApp({
   tokenStore: "nextjs-cookie",
