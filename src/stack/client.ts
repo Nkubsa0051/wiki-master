@@ -9,8 +9,8 @@ export const hexclaveClientApp = new HexclaveClientApp({
       type: "handler-component",
     },
     afterSignIn: appurl,
-    afterSignUp: appurl,
-    afterSignOut: appurl,
-    home: appurl
+    // afterSignUp: appurl,
+    // afterSignOut: appurl,
+    // home: appurl
   },
 });
